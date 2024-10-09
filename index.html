@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="do">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <title>Actividad 2 del Módulo 3 Atributos</title>
+</head>
+
+<body>
+
+    <h1>Identifica y describe las propiedades de los siguientes elementos CSS:</h1>
+    
+    <h2>Tema 1 - Texto</h2>
+    <table>
+        <tr>
+            <th>Propiedad</th>
+            <th>Valor Inicial</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>Color</td>
+            <td>Depends on user agent (generalmente black).</td>
+            <td>Define el color del texto dentro de un elemento. Puedes especificar el valor en distintos formatos como nombre de color (e.g. Red), valores hexadecimales (e.g. #ff0000), RGB (e.g. Rgb(255, 0, 0)), y otros.</td>
+        </tr>
+        <tr>
+            <td>Font-family</td>
+            <td>serif (esto puede variar según el navegador).</td>
+            <td>Especifica la fuente que se usará para el texto dentro de un elemento. Puedes definir una fuente específica o una lista de fuentes de respaldo para garantizar que se muestre correctamente en diferentes sistemas.</td>
+        </tr>
+        <tr>
+            <td>Font-size</td>
+            <td>medium (generalmente 16px en la mayoría de los navegadores).</td>
+            <td>Define el tamaño de la fuente para el texto dentro de un elemento. Se puede especificar en diferentes unidades, incluyendo píxeles (px), ems (em), rems (rem), porcentajes (%), entre otros.</td>
+        </tr>
+        <tr>
+            <td>Font-weight</td>
+            <td>normal (equivale a 400).</td>
+            <td>Especifica el grosor del texto. Los valores pueden ser palabras clave como normal, bold, bolder, lighter, o valores numéricos que van desde 100 hasta 900, donde 400 representa el peso normal y 700 representa el peso en negrita.</td>
+        </tr>
+        <tr>
+            <td>Font-style</td>
+            <td>normal.</td>
+            <td>Especifica el estilo de la fuente, permitiendo que el texto se muestre en diferentes estilos como normal, cursiva o negrita.</td>
+        </tr>
+        <tr>
+            <td>Font-variant</td>
+            <td>normal.</td>
+            <td>Controla la variación de la fuente, específicamente si se debe utilizar una versión "pequeña mayúscula" (small-caps) de la fuente.</td>
+        </tr>
+        <tr>
+            <td>Font</td>
+            <td>inherit.</td>
+            <td>La propiedad font es una propiedad abreviada que permite establecer múltiples propiedades de tipografía en una sola declaración.</td>
+        </tr>
+        <tr>
+            <td>Text-align</td>
+            <td>start (izquierda o derecha dependiendo del idioma).</td>
+            <td>Controla la alineación del texto dentro de un elemento de bloque.</td>
+        </tr>
+        <tr>
+            <td>Line-height</td>
+            <td>normal.</td>
+            <td>Establece la altura de la línea para el texto en un elemento.</td>
+        </tr>
+        <tr>
+            <td>Text-decoration</td>
+            <td>none.</td>
+            <td>Se utiliza para especificar el estilo de decoración del texto, como subrayados o tachados.</td>
+        </tr>
+        <tr>
+            <td>Text-transform</td>
+            <td>none.</td>
+            <td>Controla la capitalización del texto en un elemento.</td>
+        </tr>
+        <tr>
+            <td>Vertical-align</td>
+            <td>baseline.</td>
+            <td>Controla la alineación vertical de un elemento en relación con su línea base.</td>
+        </tr>
+        <tr>
+            <td>Text-indent</td>
+            <td>0.</td>
+            <td>Define la cantidad de espacio que se debe dejar al inicio de la primera línea de un bloque de texto.</td>
+        </tr>
+        <tr>
+            <td>Letter-spacing</td>
+            <td>normal.</td>
+            <td>Controla el espacio adicional entre los caracteres de un texto.</td>
+        </tr>
+        <tr>
+            <td>Word-spacing</td>
+            <td>normal.</td>
+            <td>Controla el espacio adicional entre las palabras en un bloque de texto.</td>
+        </tr>
+        <tr>
+            <td>White-space</td>
+            <td>normal.</td>
+            <td>Controla cómo se maneja el espacio en blanco dentro de un elemento.</td>
+        </tr>
+    </table>
+    
+
+    <h2>Tema 2 - Enlaces</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Característica</th>
+                <th>Propiedades</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="7">Tamaño, Color y Decoración</td>
+                <td>font-size</td>
+                <td>Define el tamaño de la fuente de un elemento.</td>
+            </tr>
+            <tr>
+                <td>color</td>
+                <td>Especifica el color del texto dentro de un elemento.</td>
+            </tr>
+            <tr>
+                <td>text-decoration</td>
+                <td>Controla la decoración del texto, permitiendo subrayados, tachados, etc.</td>
+            </tr>
+            <tr>
+                <td>line-height</td>
+                <td>Establece la altura de la l&iacute;nea, afectando el espaciado vertical entre l&iacute;neas de texto.</td>
+            </tr>
+            <tr>
+                <td>letter-spacing</td>
+                <td>Ajusta el espacio entre los caracteres de un texto.</td>
+            </tr>
+            <tr>
+                <td>word-spacing</td>
+                <td>Ajusta el espacio entre las palabras en un bloque de texto.</td>
+            </tr>
+            <tr>
+                <td>text-align</td>
+                <td>Controla la alineaci&oacute;n del texto dentro de un contenedor (izquierda, derecha, centro, justificar).</td>
+            </tr>
+
+            <tr>
+                <td rowspan="7">Decoraci&oacute;n Personalizada
+                </td>
+                <td>text-shadow
+                </td>
+                <td>Aplica una sombra al texto, permitiendo efectos visuales personalizados.
+                </td>
+            </tr>
+            <tr>
+                <td>text-transform
+                </td>
+                <td>Controla la capitalizaci&oacute;n del texto (may&uacute;sculas, min&uacute;sculas, etc.).
+                </td>
+            </tr>
+            <tr>
+                <td>font-family
+                </td>
+                <td>Define la familia de fuentes a utilizar para el texto.
+                </td>
+            </tr>
+            <tr>
+                <td>background-color
+                </td>
+                <td>Establece el color de fondo detr&aacute;s del texto, afectando la decoraci&oacute;n general.
+                </td>
+            </tr>
+            <tr>
+                <td>text-indent
+                </td>
+                <td>Define el espacio que se deja al inicio de la primera l&iacute;nea de un bloque de texto, creando una sangr&iacute;a.
+                </td>
+            </tr>
+            <tr>
+                <td>vertical-align
+                </td>
+                <td>Controla la alineaci&oacute;n vertical de elementos en l&iacute;nea con respecto a su l&iacute;nea base.
+                </td>
+            </tr>
+            <tr>
+                <td>opacity
+                </td>
+                <td>Controla la opacidad de un elemento, permitiendo efectos de transparencia.
+                </td>
+            </tr>                
+            </tbody>
+        </table>
+
+        
+    <h2>Tema 3 - Imágenes</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Característica</th>
+                <th>Propiedades</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="7">Anchura y Altura</td>
+                <td>width</td>
+                <td>Define el ancho de un elemento. Puede ser especificado en unidades absolutas (px, cm) o relativas (%).</td>
+            </tr>
+            <tr>
+                <td>height</td>
+                <td>Define la altura de un elemento. Similar a width, puede ser en unidades absolutas o relativas.</td>
+            </tr>
+            <tr>
+                <td>max-width</td>
+                <td>Establece el ancho m&aacute;ximo que un elemento puede alcanzar, &uacute;til para hacer que un dise&ntilde;o sea responsivo.</td>
+            </tr>
+            <tr>
+                <td>max-height</td>
+                <td>Establece la altura m&aacute;xima de un elemento.</td>
+            </tr>
+            <tr>
+                <td>min-width</td>
+                <td>Define el ancho m&iacute;nimo de un elemento, evitando que se reduzca a menos de un cierto tama&ntilde;o.</td>
+            </tr>
+            <tr>
+                <td>min-height</td>
+                <td>Define la altura m&iacute;nima de un elemento.</td>
+            </tr>
+            <tr>
+                <td>box-sizing</td>
+                <td>Controla c&oacute;mo se calculan las dimensiones de un elemento, ya sea incluyendo o excluyendo el padding y los bordes.</td>
+            </tr>
+            <tr>
+                <td rowspan="8">Eliminar el Borde</td>
+                <td>border</td>
+                <td>Establece un borde alrededor de un elemento, incluyendo propiedades como border-width, border-style y border-color.</td>
+            </tr>
+            <tr>
+                <td>border-width</td>
+                <td>Define el grosor del borde de un elemento (ej. 1px, 2px).</td>
+            </tr>
+            <tr>
+                <td>border-style</td>
+                <td>Especifica el estilo del borde (ej. solid, dashed, none).</td>
+            </tr>
+            <tr>
+                <td>border-color</td>
+                <td>Define el color del borde de un elemento.</td>
+            </tr>
+            <tr>
+                <td>outline</td>
+                <td>Especifica un contorno alrededor de un elemento, que no ocupa espacio en el flujo del documento.</td>
+            </tr>
+            <tr>
+                <td>outline-width</td>
+                <td>Define el grosor del contorno.</td>
+            </tr>
+            <tr>
+                <td>outline-style</td>
+                <td>Especifica el estilo del contorno.</td>
+            </tr>
+            <tr>
+                <td>outline-color</td>
+                <td>Define el color del contorno.</td>
+            </tr>
+        </tbody>
+    </table>  
+    
+    
+    <h2>Tema 4 - Listas</h2>
+    <table>
+        <tr>
+            <th>Propiedad</th>
+            <th>Valor Inicial</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>list-style-type</td>
+            <td>disc</td>
+            <td>Especifica el tipo de marcador de la lista.</td>
+        </tr>
+        <tr>
+            <td>list-style-position</td>
+            <td>outside</td>
+            <td>Define la posición de los marcadores en una lista.</td>
+        </tr>
+        <tr>
+            <td>list-style-image</td>
+            <td>none</td>
+            <td>Permite establecer una imagen como marcador de lista.</td>
+        </tr>
+        <tr>
+            <td>list-style</td>
+            <td>none</td>
+            <td>Es una propiedad abreviada que combina list-style-type, list-style-position, y list-style-image.</td>
+        </tr>
+    </table>
+    
+
+    <h2>Tema 5 - Tablas</h2>
+    <table>
+        <tr>
+            <th>Propiedad</th>
+            <th>Se Aplica a</th>
+            <th>Valor Inicial</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>border-collapse</td>
+            <td>table, th, td</td>
+            <td>separate</td>
+            <td>Controla el colapso de los bordes de las celdas de una tabla.</td>
+        </tr>
+        <tr>
+            <td>border-spacing</td>
+            <td>table</td>
+            <td>0</td>
+            <td>Define el espacio entre los bordes de las celdas de una tabla.</td>
+        </tr>
+        <tr>
+            <td>empty-cells</td>
+            <td>table, th, td</td>
+            <td>show</td>
+            <td>Controla la visualización de celdas vacías en una tabla.</td>
+        </tr>
+        <tr>
+            <td>caption-side</td>
+            <td>table</td>
+            <td>top</td>
+            <td>Especifica la posición de la leyenda de la tabla.</td>
+        </tr>
+    </table>
+    
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
